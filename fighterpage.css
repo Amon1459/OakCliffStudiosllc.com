@@ -1,0 +1,42 @@
+*{
+background-color: black;
+}
+
+.nav  { 
+     
+     font-size: 40px;
+     color: white;
+     font-weight: 400;
+     font-style: bold;
+     font-family: "roboto";
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 500;
+     position: absolute;
+       top: 0;
+     left: 0;
+    right: 0;
+   padding:40px;
+    display: flex;
+
+}
+
+
+
+
+ .nav ul li {
+     font-family: "roboto";
+padding: 50;
+margin: 100px;
+     font-size: 40px;
+     
+     text-decoration: none;
+     list-style: none;
+     display: list-item;
+     float: center;
+     align-items: inherit;
+     justify-items:inherit;
+     justify-content: space-between;
+     overflow: hidden;
+     j
+ }
