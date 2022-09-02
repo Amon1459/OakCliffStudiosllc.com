@@ -74,7 +74,20 @@ max-height: 100%;
 {
   right: 300px;
 }
+.video-container {
+  position: relative;
+  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
+  height: 0;
+  width: 100%;
+}
 
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .showcase video
 {
   position: absolute;
@@ -96,7 +109,8 @@ max-height: 100%;
 }
 .text
 {
-  position: relative;
+  float: right;
+  position: absolute;
   z-index: 10;
 }
 
@@ -254,7 +268,7 @@ bottom:2cm;
 {  
   .showcase,
   .showcase header
-  {aspect-ratio: 16.9;
+{   aspect-ratio: 2 / 3;
     padding: 40px;
   }
   .text h2
